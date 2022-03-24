@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+/* import App from './App'; */
 import reportWebVitals from './reportWebVitals';
+/* import AppTwo from './AppTwo'; */
+import Apptwos from './Apptwos';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <AppTwo/> */}
+    <Apptwos/>
   </React.StrictMode>,
   document.getElementById('root')
 );
