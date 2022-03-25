@@ -58,7 +58,7 @@ function Apptwos() {
             aria-label="Example text with button addon" 
             aria-describedby="button-addon1"
 
-            value={name}
+            /* value={name} */
             onChange={(e) => setName(e.target.value)}
             
             />
